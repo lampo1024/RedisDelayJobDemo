@@ -8,7 +8,7 @@ namespace RedisCoreDemo.App
         public static void Main(string[] args)
         {
             var EXPIRED_KEYS_CHANNEL = "__keyevent@0__:expired";
-            var host = "23.83.252.113:6379,password=753951";
+            var host = "xxx:6379,password=xxx";
 
             var connection = ConnectionMultiplexer.Connect(host);
             ISubscriber subscriber = connection.GetSubscriber();
